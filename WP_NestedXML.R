@@ -3,7 +3,7 @@ setwd("~/Documents/NSF")
 years <- list.files()
 nsf <- list()
 
-#testing with NSF year of 1976
+#testing with NSF year of 2018
 setwd("~/Documents/NSF/2018")
 all <- list.files()
 current <- xmlInternalTreeParse(all[1], useInternalNodes = T)
