@@ -1,0 +1,20 @@
+"","variable_name","long_name","class","options","examples"
+"1","res_exp","Result Group","integer","1, extreme heat | 2, heat wave | 3, moderate to extreme heat | 4, extreme cold | 5, cold spell | 6, moderate to extreme cold | 7, temperature variability | 8, all range temperature",NA
+"2","res_tind","Temperature Indicator","integer","1, air temperature | 2, heat index | 3, humidex | 4, wind chill index | 5, wet bulb globe temperature | 6, physical equivalent temperature | 7, broadly defined apparent temperature | 8, Other",NA
+"3","res_tind_other","Temperature Indicator, Other","character",NA,NA
+"4","res_tstat","Statistical Feature","integer","1, maximum | 2, mean | 3, minimum | 4, diurnal range | 5, absolute difference between days | 6, multi-day moving average | 7, Unspecified | 8, Other",NA
+"5","res_tstat_other","Statistical Feature, Other","character",NA,NA
+"6","res_lr","Lag Range","charater",NA,"If the study does not consider delay effect at all, fill in 0."
+"7","res_strat","OTher Stratum Characteristics","character",NA,"e.g. gender, location, season, model type, specific effect measure (when >2)."
+"8","res_dn","Disease Name","character",NA,"e.g. Hypertensive Disease"
+"9","res_did","Disease Identification Code","character",NA,"e.g. I00-I99"
+"10","res_rsp","Population Health Response","integer","1, mortality | 2, emergency department visits | 3, emergency calls | 4, emergency ambulance transportation trips | 5, hospitalizations | 6, outpatient visits | 7, Other",NA
+"11","res_rsp_other","Population Health Response, Other","character",NA,NA
+"12","res_ag","Age Restriction","character",NA,"e.g. 0-18, 75+, adult, elderly"
+"13","res_ss","Sample Size","integer",NA,NA
+"14","res_eu","Exposure Unit Comparison","integer","1, Comparison by 2 degree values | 2, Comparison by 2 percentile values | 3, Comparison by degree differences | 4, Comparison by percentile differences | 5, Comparison by threshold | 6, Other",NA
+"15","res_eu_other","Exposure Unit Comparison, Other","character",NA,NA
+"16","res_eupa","Exposure Unit Parameter A","integer",NA,NA
+"17","res_eupb","Exposure Unit Parameter B","integer",NA,NA
+"18","res_eupc","Exposure Unit Parameter C","character",NA,NA
+"19","res_ee","Effect Estimate","character",NA,"e.g. point estimate [CI1, CI2] SE ; p-Value"
